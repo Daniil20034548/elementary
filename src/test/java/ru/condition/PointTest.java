@@ -16,7 +16,6 @@ class PointTest {
         assertThat(out).isEqualTo(expected, withPrecision(0.01));
     }
 
-
     @Test
     void when22to42then2() {
         double expected = 2;

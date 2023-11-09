@@ -16,7 +16,6 @@ class X2Test {
         assertThat(rsl).isEqualTo(expected);
     }
 
-
     @Test
     void whenA1B1C1X1Then3() {
         int a = 1;
