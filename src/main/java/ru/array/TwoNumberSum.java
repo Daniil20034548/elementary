@@ -5,16 +5,16 @@ public class TwoNumberSum {
         int i = 0;
         int j = array.length - 1;
         while (i < j) {
-            if (array[i] + array[j] == target) {
+            int var = array[i] + array[j];
+            if (var == target) {
                 return new int[]{i, j};
-            }
-            if (array[i] + array[j] > target) {
+            } else if (var > target) {
                 j--;
-            }
-            if (array[i] + array[j] < target) {
+            } else {
                 i++;
             }
         }
         return new int[0];
     }
 }
+
