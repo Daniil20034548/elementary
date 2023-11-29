@@ -2,6 +2,7 @@ package ru.condition;
 
 import org.junit.jupiter.api.Test;
 import static org.assertj.core.api.Assertions.assertThat;
+import static org.assertj.core.api.Assertions.withPrecision;
 
 class MaxTest {
     @Test
@@ -26,6 +27,18 @@ class MaxTest {
         int right = 5;
         int result = Max.max(right, left);
         int expected = 5;
+        assertThat(result).isEqualTo(expected);
+    }
+    @Test
+    void whenMax5To5And10Then10() {
+        int expected = 10;
+        int result = Max.max(5, 5, 10);
+        assertThat(result).isEqualTo(expected);
+    }
+    @Test
+    void whenMax5To5And10And30Then30() {
+        int expected = 30;
+        int result = Max.max(5, 5, 10, 30);
         assertThat(result).isEqualTo(expected);
     }
 }
