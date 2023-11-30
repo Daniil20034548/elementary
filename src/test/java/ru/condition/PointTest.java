@@ -6,7 +6,7 @@ import static org.assertj.core.api.Assertions.*;
 
 class PointTest {
     @Test
-    void when00to20then2() {
+    void when00to02then2() {
         double expected = 2;
         Point a = new Point(0, 0);
         Point b = new Point(0, 2);
@@ -15,7 +15,7 @@ class PointTest {
     }
 
     @Test
-    void when31to31then0() {
+    void when22to42then2() {
         double expected = 2;
         Point a = new Point(2, 2);
         Point b = new Point(4, 2);
