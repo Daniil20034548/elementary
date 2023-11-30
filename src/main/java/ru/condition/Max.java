@@ -2,15 +2,15 @@ package ru.condition;
 
 public class Max {
     public static int max(int first, int second) {
-        return first > second ? first : second;
+        return Math.max(first, second);
     }
 
     public static int max(int first, int second, int three) {
-        return three > max(first, second) ? three : second;
+        return Math.max(three, max(first, second));
     }
 
     public static int max(int first, int second, int three, int four) {
-        return four > max(first, second, three) ? four : first;
+        return Math.max(four, max(first, second, three));
     }
 
     public static void main(String[] args) {
