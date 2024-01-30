@@ -22,6 +22,7 @@ class MaxTest {
         int expected = 5;
         assertThat(result).isEqualTo(expected);
     }
+
     @Test
     void whenMax5To5Then5() {
         int left = 5;
