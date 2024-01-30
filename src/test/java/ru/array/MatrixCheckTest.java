@@ -4,6 +4,7 @@ import org.junit.jupiter.api.Test;
 import static org.assertj.core.api.Assertions.assertThat;
 
 public class MatrixCheckTest {
+
     @Test
     public void whenHasMonoHorizontal() {
         char[][] input = {
@@ -15,6 +16,7 @@ public class MatrixCheckTest {
         boolean result = MatrixCheck.monoHorizontal(input, row);
         assertThat(result).isTrue();
     }
+
     @Test
     public void whenHasMonoHorizontalIsFalse() {
         char[][] input = {
@@ -26,6 +28,7 @@ public class MatrixCheckTest {
         boolean result = MatrixCheck.monoHorizontal(input, row);
         assertThat(result).isFalse();
     }
+
     @Test
     public void whenHasMonoHorizontalIsFalse1() {
         char[][] input = {
@@ -37,6 +40,7 @@ public class MatrixCheckTest {
         boolean result = MatrixCheck.monoHorizontal(input, row);
         assertThat(result).isFalse();
     }
+
     @Test
     public void whenHasMonoVerticalIsTrue() {
         char[][] input = {
@@ -48,6 +52,7 @@ public class MatrixCheckTest {
         boolean result = MatrixCheck.monoVertical(input, column);
         assertThat(result).isTrue();
     }
+
     @Test
     public void whenHasMonoVerticalIsFalse() {
         char[][] input = {
@@ -59,6 +64,7 @@ public class MatrixCheckTest {
         boolean result = MatrixCheck.monoVertical(input, column);
         assertThat(result).isFalse();
     }
+
     @Test
     public void whenHasMonoVerticalIsFalse1() {
         char[][] input = {
@@ -70,6 +76,7 @@ public class MatrixCheckTest {
         boolean result = MatrixCheck.monoVertical(input, column);
         assertThat(result).isFalse();
     }
+
     @Test
     public void whenDiagonalFullX() {
         char[][] input = {
@@ -105,6 +112,7 @@ public class MatrixCheckTest {
         char[] expected = {'X', 'Y', 'Z'};
         assertThat(result).containsExactly(expected);
     }
+
     @Test
     public void whenDataMonoByTrueThenTrue() {
         char[][] input = {
