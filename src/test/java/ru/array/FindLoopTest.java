@@ -84,6 +84,7 @@ class FindLoopTest {
         int expected = -1;
         assertThat(result).isEqualTo(expected);
     }
+
     @Test
     public void whenDiapasonHas7Then6() {
         int[] data = new int[]{5, 2, 10, 2, 4, 6, 7};
