@@ -5,6 +5,7 @@ import org.junit.jupiter.api.Test;
 import static org.assertj.core.api.Assertions.*;
 
 class PointTest {
+
     @Test
     void when00to02then2() {
         double expected = 2;
@@ -31,6 +32,7 @@ class PointTest {
         double dist = a.distance(b);
         assertThat(dist).isEqualTo(expected, withPrecision(0.01));
     }
+
     @Test
     void when002to032then3() {
         double expected = 3;
@@ -39,6 +41,7 @@ class PointTest {
         double dist = a.distance3d(b);
         assertThat(dist).isEqualTo(expected, withPrecision(0.01));
     }
+
     @Test
     void when002to0010then3() {
         double expected = 8;
