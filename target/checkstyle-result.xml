@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="10.3.3">
+<file name="C:\projects\elementary\src\main\java\ru\calculator\ArgMethod.java">
+</file>
+<file name="C:\projects\elementary\src\main\java\ru\calculator\Calculator.java">
+</file>
+<file name="C:\projects\elementary\src\main\java\ru\calculator\Fit.java">
+</file>
+<file name="C:\projects\elementary\src\main\java\ru\calculator\MathCalculator.java">
+</file>
+<file name="C:\projects\elementary\src\main\java\ru\calculator\MathFunc.java">
+</file>
+<file name="C:\projects\elementary\src\main\java\ru\condition\Greeting.java">
+</file>
+<file name="C:\projects\elementary\src\main\java\ru\condition\Point.java">
+</file>
+<file name="C:\projects\elementary\src\main\java\ru\condition\SqArea.java">
+</file>
+<file name="C:\projects\elementary\src\main\java\ru\condition\TrgArea.java">
+</file>
+<file name="C:\projects\elementary\src\main\java\ru\condition\X2.java">
+</file>
+<file name="C:\projects\elementary\src\main\java\ru\converter\Converter.java">
+</file>
+<file name="C:\projects\elementary\src\main\java\ru\Main.java">
+</file>
+<file name="C:\projects\elementary\src\main\java\ru\math\MathFunction.java">
+</file>
+<file name="C:\projects\elementary\src\test\java\ru\calculator\FitTest.java">
+</file>
+<file name="C:\projects\elementary\src\test\java\ru\condition\PointTest.java">
+</file>
+<file name="C:\projects\elementary\src\test\java\ru\condition\SqAreaTest.java">
+</file>
+<file name="C:\projects\elementary\src\test\java\ru\condition\X2Test.java">
+</file>
+<file name="C:\projects\elementary\src\test\java\ru\converter\ConverterTest.java">
+</file>
+<file name="C:\projects\elementary\src\test\java\ru\MainTest.java">
+</file>
+</checkstyle>
